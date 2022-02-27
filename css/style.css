@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+header{
+    background-color: rgb(235, 227, 227);
+    width: 100%;
+    float: left;
+}
+.logo-part{
+    width: 33.33333333333333%;
+    float: left;
+}
+.logo-part img{
+    width: 50%;
+}
+.menu-part{
+    width: 33.33333333333333%;
+    float: left;
+}
+/* .menu-part ul{
+    
+
+} */
+.menu-part li{
+    display: inline-block;
+    margin: 70px 20px
+}
+.menu-part a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20 px;
+    font-weight: 600px;
+    
+}
+.search-part{ 
+    width: 30%;
+    float: left;
+    text-align: end;
+
+    
+}
+input[type="search"]{
+    width: 80% ;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 55px auto;
+}
+input:focus{
+    background-color: bisque;
+}
+input::placeholder{
+    text-align: right;
+    color: rgb(7, 7, 7);
+}
+.dot{
+    float: left;
+    margin: 57.5px auto;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.hero{
+    background-color: rgb(13, 145, 150);
+    margin: auto;
+width: 100%;
+float: left;}
+.writing-part{
+    width: 40%;
+    float: left;
+
+}
+.img-part{
+    width: 30%;
+    height: 70%;
+    float: left;
+}
+.writing-part button {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(33, 214, 154);
+}
+.writing-part h1{
+    text-align: center;
+    color: rgb(32, 207, 32);
+}
+
+
